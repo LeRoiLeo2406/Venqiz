@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venqiz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <div class="menu-toggle">
+                <img src="../image/LOGO/menu-line.svg" alt="Menu">
+            </div>
+            <div class="logo">
+                <a href="../index.html"><img src="../image/LOGO/Logo Venqiz Blanc.svg" alt="Venqiz Logo"></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html#home">HOME</a></li>
+                <li><a href="../index.html#tshirts">T-SHIRTS</a></li>
+                <li><a href="../index.html#hoodies">HOODIES</a></li>
+                <li><a href="../index.html#jackets">JACKETS</a></li>
+                <li><a href="../index.html#pants">PANTS</a></li>
+            </ul>
+            <div class="cart">
+                <a href="#cart"><img src="../image/LOGO/cart.svg" alt="Cart"></a>
+            </div>
+        </nav>
+    </header>
+
+        <!-- Menu Latéral -->
+        <div id="side-menu" class="side-menu">
+            <button id="close-menu">&times;</button>
+            <ul>
+                <li><a href="../index.html#home">HOME</a></li>
+                <li><a href="../index.html#tshirts">T-SHIRTS</a></li>
+                <li><a href="../index.html#hoodies">HOODIES</a></li>
+                <li><a href="../index.html#jackets">JACKETS</a></li>
+                <li><a href="../index.html#pants">PANTS</a></li>
+            </ul>
+        </div>
+        
+        <!-- Overlay pour cliquer et fermer le menu -->
+        <div id="menu-overlay" class="menu-overlay"></div>
+
+    <!-- Product Details -->
+    <main class="product-page">
+        <section class="product-detail">
+            <div class="product-image-container">
+             <img src="../image/Image Vêtement/Jackets/jacket 2.png" alt="Work Jacket" class="product-image">
+            </div>
+            <div class="product-info">
+                <h1 class="product-title">Work Jacket</h1>
+                <p class="product-price">€145,95</p>
+                <form class="product-options">
+                    <label for="size">Size:</label>
+                    <select id="size" name="size">
+                        <option value="s">Small</option>
+                        <option value="m">Medium</option>
+                        <option value="l">Large</option>
+                        <option value="xl">Extra Large</option>
+                    </select>
+                    <button type="button" class="add-to-cart">Add to Cart</button>
+                </form>
+                <p class="product-description">
+                    
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <ul>
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="../index.html#tshirts">T-SHIRTS</a></li>
+            <li><a href="../index.html#hoodies">HOODIES</a></li>
+            <li><a href="../index.hmtl#jackets">JACKETS</a></li>
+            <li><a href="../index.html#pants">PANTS</a></li>
+        </ul>
+        <p>© 2025 Venqiz. All rights reserved.</p>
+    </footer>
+
+        <!-- Shopping Cart Sidebar -->
+<div id="cart-sidebar" class="cart-sidebar">
+    <div class="cart-header">
+        <h2>Cart</h2>
+        <button id="close-cart">&times;</button>
+    </div>
+    <div class="cart-content">
+        <p>Your cart is empty.</p>
+    </div>
+    <div class="cart-footer">
+        <button id="checkout-btn">CHECK OUT</button>
+    </div>
+</div>
+
+<!-- Overlay -->
+<div id="cart-overlay" class="cart-overlay"></div>
+
+
+
+<script src="../script.js"></script>
+
+
+</body>
+</html>
