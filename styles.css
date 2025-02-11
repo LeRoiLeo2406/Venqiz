@@ -71,6 +71,8 @@ nav {
     position: absolute; /* Position absolue pour rester dans le conteneur */
     top: 0;
     left: 0;
+    display: block;
+    object-fit: cover;
 }
 
 /* Product Section */
